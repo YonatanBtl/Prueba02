@@ -23,7 +23,7 @@ jobs:
           target: 'https://prueba02-liard.vercel.app'
           scan-mode: 'passive'
       - name: Upload ZAP Report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ZAP-Report
           path: owasp-zap-report.html          
