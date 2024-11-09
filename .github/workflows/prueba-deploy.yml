@@ -21,7 +21,6 @@ jobs:
         uses: zaproxy/action-baseline@v0.9.0
         with:
           target: 'https://prueba02-liard.vercel.app'
-          docker_name: 'owasp/zap'
       - name: Upload ZAP Report
         uses: actions/upload-artifact@v3
         with:
